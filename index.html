@@ -2,6 +2,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <!-- 这行是自动跳转：0秒后立即跳转到原神官网 -->
+    <meta http-equiv="refresh" content="0; url=https://ys.mihoyo.com/">
     <title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
     <link rel="icon" href="https://www.bilibili.com/favicon.ico">
     <meta property="og:title" content="哔哩哔哩 (゜-゜)つロ 干杯~-bilibili" />
@@ -9,24 +11,47 @@
     <meta property="og:image" content="https://www.bilibili.com/og_image.png" />
     <meta property="og:url" content="https://www.bilibili.com/" />
     <style>
-        body { font-family: "Microsoft YaHei", sans-serif; background: #F4F5F7; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
-        .card { background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); text-align: center; }
-        .bilibili-icon { background: #FB7299; width: 50px; height: 50px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 24px; margin-bottom: 20px; }
-        .url-display { background: #f0f0f0; border-radius: 20px; padding: 8px 18px; margin: 20px 0; font-size: 14px; color: #555; }
-        .btn-fake { display: inline-block; padding: 14px 48px; background: #FB7299; color: #fff; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 17px; margin-top: 20px; }
-        .hint { font-size: 12px; color: #bbb; margin-top: 15px; }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: #F4F5F7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .url-display {
+            background: #f0f0f0;
+            border-radius: 20px;
+            padding: 8px 18px;
+            margin: 20px 0;
+        }
+        .btn-fake {
+            display: inline-block;
+            padding: 14px 48px;
+            background: #FB7299;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="card">
-        <div class="bilibili-icon">B</div>
+        <div style="background:#FB7299;width:50px;height:50px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:bold;font-size:24px;margin-bottom:20px;">B</div>
         <h2>哔哩哔哩</h2>
         <p style="color:#999;">bilibili · 干杯~</p>
-        <div class="url-display">
-            <span>🔒 https://</span><strong>www.bilibili.com</strong>
-        </div>
+        <div class="url-display">🔒 https://<strong>www.bilibili.com</strong></div>
         <a href="https://ys.mihoyo.com/" class="btn-fake">进入网站</a>
-        <div class="hint">链接显示为 bilibili.com · 点击后前往原神官网</div>
+        <p style="color:#bbb;font-size:12px;margin-top:15px;">链接显示为 bilibili.com · 点击后前往原神官网</p>
     </div>
 </body>
 </html>
